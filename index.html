@@ -1,37 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wrixby UI</title>
-    <!-- <base href="/" /> -->
-    <link type="text/css" rel="stylesheet" href="/lib/package/components/wrixby.css">
-</head>
+    <script
+      src="https://kit.fontawesome.com/303bcab846.js"
+      crossorigin="anonymous"
+    ></script>
+    <link type="text/css" rel="stylesheet" href="main.css" />
+  </head>
 
-<body>
-    <header>
-        <div>
-
+  <body>
+    <header class="navbar">
+      <nav class="nav">
+        <div class="navbar-brand">
+          <a href="/" class="navbar-logo">
+            <img src="/assets/images/WrixbyUI.png" alt="" />
+            <h1>Wrixby UI</h1>
+          </a>
         </div>
+
+        <ul class="navbar-menu">
+          <li class="nav-link"><a href="/docs/">Documentation</a></li>
+          <li class="nav-link">
+            <a
+              href="https://github.com/keshavkumar-in/wrixby-component-library"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button class="button button-primary button-round" role="button">
+                GitHub
+              </button>
+            </a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1>WRIXBY UI</h1>
-                    </div>
-                </div>
-            </div>
-        </section>
+      <section class="margin-vertical-auto">
+        <div
+          class="container align-items-center text-center flex-direction-column"
+        >
+          <h1 class="margin-top-5 text-extra-large">
+            Build modern sites with
+            <span class="bg-highlight">Simplicity</span> at its core with
+            <span class="bg-highlight">Wrixby</span>.
+          </h1>
+          <p class="text-lead margin-vertical-4 width-50">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+            eveniet perspiciatis ea sunt. Necessitatibus tenetur impedit cumque
+            quibusdam exercitationem corporis ex quod doloribus neque eius?
+            Sapiente laboriosam consequatur odio nesciunt?
+          </p>
+          <div class="margin-vertical-5">
+            <a href="/docs/">
+              <button
+                class="button button-primary button-round"
+                role="button"
+                aria-label="Get Started"
+              >
+                Get Started
+              </button>
+            </a>
+            <a
+              href="https://github.com/keshavkumar-in/wrixby-component-library"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button
+                class="button button-primary-outline button-round"
+                role="button"
+                aria-label="Github"
+              >
+                GitHub
+              </button>
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-        <div>
-
+      <div
+        class="container justify-content-center align-items-center flex-direction-column"
+      >
+        <div class="margin-vertical-2">
+          Made with by
+          <i
+            class="fa-solid fa-heart fa-beat text-red"
+            style="--fa-animation-duration: 0.5s"
+          ></i>
+          <a href="http://keshavkumar.in" class="text-link">Keshav Kumar</a>.
         </div>
-    </footer>
-</body>
 
+        <div class="social-links">
+          <a
+            href="https://github.com/keshavkumar-in/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-github fa-xl" aria-label="Github"></i>
+          </a>
+          <a
+            href="https://twitter.com/keshavkumar_in"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-twitter fa-xl" aria-label="Twitter"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/keshavkumar-in/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-linkedin fa-xl" aria-label="LinkedIn"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
