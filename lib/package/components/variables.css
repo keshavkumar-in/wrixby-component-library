@@ -2,12 +2,20 @@
 
 :root {
   --bg-primary: #eb5e28;
-  --bg-primary-light: #eb5f284d;
+  --bg-primary-light: #f1662f36;
   --bg-secondary: #fefae0;
-  --bg-success: #198754;
-  --bg-info: #0dcaf0;
+  --bg-success: #1cca79;
+  --text-success: #046839;
+  --bg-success-light: #41d4905e;
+  --bg-info: #1cbedf;
+  --text-info: #056072;
+  --bg-info-light: #1cbfdf52;
   --bg-warning: #ffc107;
-  --bg-danger: #dc3545;
+  --text-warning: #7a5d05;
+  --bg-warning-light: #ffc10744;
+  --bg-danger: #dc3b35;
+  --text-danger: #9f0b06;
+  --bg-danger-light: #f210073b;
   --bg-light: #f8f9fa;
   --bg-dark: #403d39;
   --font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
@@ -20,8 +28,11 @@
   --body-color: #252422;
   --body-bg: #fffcf2;
   --transition: all 0.3s ease 0s;
-  --text-primary: #eb5e28;
+  --text-primary: #aa3103;
   --text-secondary: #252422;
   --text-red: #eb2828;
   --gray: #9e9e9e;
+  --box-shadow: box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.09),
+  0 2px 3px -1px rgba(0, 0, 0, 0.07);
+  
 }

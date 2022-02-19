@@ -70,7 +70,7 @@
 }
 /* Fancy Styling */
 .notched-corner {
-  --notchSize: 15px;
+  --notchSize: 20px;
   -webkit-clip-path: polygon(
     0% var(--notchSize),
     var(--notchSize) 0%,
