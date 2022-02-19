@@ -68,6 +68,7 @@
 .text-white {
   color: white;
 }
+
 /* Fancy Styling */
 .notched-corner {
   --notchSize: 20px;
@@ -98,4 +99,36 @@
   position: sticky;
   top: 0;
   z-index: 1;
+}
+
+/* Background Utilities */
+.bg-primary {
+  background-color: var(--bg-primary);
+}
+.bg-primary-light {
+  background-color: var(--bg-primary-light);
+}
+.bg-success {
+  background-color: var(--bg-success);
+}
+.bg-success-light {
+  background-color: var(--bg-success-light);
+}
+.bg-info {
+  background-color: var(--bg-info);
+}
+.bg-info-light {
+  background-color: var(--bg-info-light);
+}
+.bg-warning {
+  background-color: var(--bg-warning);
+}
+.bg-warning-light {
+  background-color: var(--bg-warning-light);
+}
+.bg-danger {
+  background-color: var(--bg-danger);
+}
+.bg-danger-light {
+  background-color: var(--bg-danger-light);
 }
