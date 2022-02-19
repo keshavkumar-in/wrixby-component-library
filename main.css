@@ -1,1 +1,98 @@
+@charset "UTF-8";
+
 @import url(/lib/package/components/wrixby.css);
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap");
+
+body {
+  background: var(--body-bg) url(/assets/images/bg-pattern.webp) no-repeat
+    center fixed;
+  background-size: cover;
+  font-family: var(--body-font-family);
+}
+a {
+  text-decoration: none;
+  color: var(--body-color);
+  cursor: pointer;
+}
+a,
+button,
+img {
+  transition: var(--transition);
+}
+.bg-highlight {
+  position: relative;
+}
+.bg-highlight::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background-color: var(--bg-primary-light);
+  height: 45px;
+  width: 100%;
+}
+/* Footer Social Links */
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+.social-links a {
+  color: var(--gray);
+}
+.social-links a:hover {
+  color: var(--text-primary);
+}
+.sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50px;
+  flex: 0 0 auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100vh;
+  min-height: 100vh;
+  margin-top: 3.5rem;
+}
+.sidebar-content {
+  display: flex;
+  flex-direction: column;
+  list-style-type: circle;
+}
+.sidebar-item {
+  margin: 0.5rem 0;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+.sidebar-item-link {
+  display: block;
+  margin-left: 1rem;
+}
+.sidebar-item-link:hover {
+  color: var(--text-primary);
+  transition: all 0.3s ease;
+}
+.component-section {
+  flex: 0 0 auto;
+  width: 80%;
+  position: relative;
+}
+.component-section-background {
+  background-color: #fffcf2af;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  filter: blur(4px);
+}
+.components-content {
+  backdrop-filter: blur(10px);
+  margin: 2rem;
+}
+pre {
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+code .hljs{
+  padding: 1rem 2rem;
+}
