@@ -50,7 +50,7 @@
   text-align: center;
 }
 .text-lead {
-  font-size: calc(1.275rem + .3vw);
+  font-size: calc(1.275rem + 0.3vw);
   font-weight: 300;
 }
 .text-small {
@@ -94,8 +94,8 @@
 }
 
 /* Position Utilities */
-.position-sticky{
-    position: sticky;
-    top: 0;
-    z-index: 1;
+.position-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
