@@ -2,3 +2,7 @@
 h1 {
   font-size: calc(1.425rem + 2.1vw);
 }
+.h2,
+h2 {
+  font-size: calc(1.325rem + 0.9vw);
+}
