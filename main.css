@@ -93,6 +93,17 @@ pre {
   white-space: pre-wrap;
   word-break: break-all;
 }
-code .hljs{
+code .hljs {
   padding: 1rem 2rem;
+}
+.avatar-component {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.avatar-component .avatar-examples {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
