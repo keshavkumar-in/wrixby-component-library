@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
 /* Component Imports */
+@import url(/lib/package/components/variables.css);
+@import url(/lib/package/components/typography.css);
+@import url(/lib/package/components/layout.css);
+@import url(/lib/package/components/spacing.css);
 @import url(/lib/package/components/alert.css);
 @import url(/lib/package/components/avatar.css);
 @import url(/lib/package/components/badge.css);
@@ -20,3 +24,4 @@
   padding: 0;
   box-sizing: border-box;
 }
+

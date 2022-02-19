@@ -1,3 +1,101 @@
 @charset "UTF-8";
 
-@import url(./layout.css);
+/* Width Utilities */
+.width-0 {
+  width: 0%;
+}
+.width-25 {
+  width: 25%;
+}
+.width-50 {
+  width: 50%;
+}
+.width-75 {
+  width: 75%;
+}
+.width-100 {
+  width: 100%;
+}
+
+/* Flex Utilities */
+.flex-grow {
+  flex-grow: 1;
+}
+.flex-direction-column {
+  flex-direction: column;
+}
+.flex-direction-row {
+  flex-direction: row;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.align-items-center {
+  align-items: center;
+}
+
+/* Text Utilities */
+.text-red {
+  color: var(--text-red);
+}
+.text-link {
+  color: var(--text-primary);
+  text-decoration: none;
+}
+.text-link:hover {
+  color: var(--text-secondary);
+  border-bottom: 1px solid var(--text-primary);
+}
+.text-center {
+  text-align: center;
+}
+.text-lead {
+  font-size: calc(1.275rem + .3vw);
+  font-weight: 300;
+}
+.text-small {
+  font-size: 0.5rem;
+}
+.text-default {
+  font-size: 1rem;
+}
+.text-large {
+  font-size: 3.5rem;
+}
+.text-extra-large {
+  font-size: 4.5rem;
+}
+.text-white {
+  color: white;
+}
+/* Fancy Styling */
+.notched-corner {
+  --notchSize: 15px;
+  -webkit-clip-path: polygon(
+    0% var(--notchSize),
+    var(--notchSize) 0%,
+    0% 0%,
+    100% 0%,
+    100% calc(100% - var(--notchSize)),
+    calc(100% - var(--notchSize)) 100%,
+    0 100%,
+    0% 100%
+  );
+  clip-path: polygon(
+    0% var(--notchSize),
+    var(--notchSize) 0%,
+    0% 0%,
+    100% 0%,
+    100% calc(100% - var(--notchSize)),
+    calc(100% - var(--notchSize)) 100%,
+    0 100%,
+    0% 100%
+  );
+}
+
+/* Position Utilities */
+.position-sticky{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}

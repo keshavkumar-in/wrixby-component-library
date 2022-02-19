@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* Navbar Components */
+.navbar {
+  width: 100%;
+  max-width: 100%;
+  height: 80px;
+  background-color: var(--bg-secondary);
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.16);
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 80%;
+  margin: 0 auto;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-brand {
+  flex: 25%;
+}
+.navbar-logo img {
+  width: 60px;
+  height: 60px;
+  float: left;
+}
+.navbar-logo h1 {
+  font-family: "Merienda", cursive;
+  color: var(--bg-primary);
+  font-size: 2.5rem;
+}
+.navbar-menu {
+  flex: 75%;
+  text-align: end;
+}
+.nav-link {
+  list-style: none;
+  display: inline-block;
+  margin: 0 1.5rem;
+}
+.nav-link a {
+  font-size: 1.15rem;
+}
+.nav-link a:hover {
+  color: var(--text-primary);
+}

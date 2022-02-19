@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+:root {
+  --bg-primary: #eb5e28;
+  --bg-primary-light: #eb5f2877;
+  --bg-secondary: #fefae0;
+  --bg-success: #198754;
+  --bg-info: #0dcaf0;
+  --bg-warning: #ffc107;
+  --bg-danger: #dc3545;
+  --bg-light: #f8f9fa;
+  --bg-dark: #403d39;
+  --font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --body-font-family: var(--font-sans-serif);
+  --body-font-size: 1rem;
+  --body-font-weight: 400;
+  --body-line-height: 1.5;
+  --body-color: #252422;
+  --body-bg: #fffcf2;
+  --transition: all 0.3s ease 0s;
+  --text-primary: #eb5e28;
+  --text-secondary: #252422;
+  --text-red: #eb2828;
+  --gray: #9e9e9e;
+}
