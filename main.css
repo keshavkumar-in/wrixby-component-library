@@ -9,19 +9,23 @@ body {
   background-size: cover;
   font-family: var(--body-font-family);
 }
+
 a {
   text-decoration: none;
   color: var(--body-color);
   cursor: pointer;
 }
+
 a,
 button,
 img {
   transition: var(--transition);
 }
+
 .bg-highlight {
   position: relative;
 }
+
 .bg-highlight::after {
   content: "";
   position: absolute;
@@ -32,6 +36,7 @@ img {
   height: 45px;
   width: 100%;
 }
+
 /* Footer Social Links */
 .social-links {
   display: flex;
@@ -44,6 +49,10 @@ img {
 .social-links a:hover {
   color: var(--text-primary);
 }
+
+/* Documentation Styling */
+
+/* Sidebar */
 .sidebar {
   position: -webkit-sticky;
   position: sticky;
@@ -55,29 +64,36 @@ img {
   min-height: 100vh;
   margin-top: 3.5rem;
 }
+
 .sidebar-content {
   display: flex;
   flex-direction: column;
   list-style-type: circle;
 }
+
 .sidebar-item {
   margin: 0.5rem 0;
   color: var(--text-secondary);
   font-weight: 500;
 }
+
 .sidebar-item-link {
   display: block;
   margin-left: 1rem;
 }
+
 .sidebar-item-link:hover {
   color: var(--text-primary);
   transition: all 0.3s ease;
 }
+
+/* Component Demo Section */
 .component-section {
   flex: 0 0 auto;
   width: 80%;
   position: relative;
 }
+
 .component-section-background {
   background-color: #fffcf2af;
   position: absolute;
@@ -85,17 +101,19 @@ img {
   height: 100%;
   filter: blur(4px);
 }
+
 .components-content {
   backdrop-filter: blur(10px);
   margin: 2rem;
 }
-pre {
-  white-space: pre-wrap;
-  word-break: break-all;
+
+/* Badge Example */
+.badge-example {
+  display: flex;
+  gap: 1rem;
 }
-code .hljs {
-  padding: 1rem 2rem;
-}
+
+/* Avatar Component */
 .avatar-component {
   display: flex;
   flex-wrap: wrap;
