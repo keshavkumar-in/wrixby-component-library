@@ -10,40 +10,6 @@
       crossorigin="anonymous"
     ></script>
     <link type="text/css" rel="stylesheet" href="/main.css" />
-
-    <script>
-      function includeHTML() {
-        var z, i, elmnt, file, xhttp;
-        /* Loop through a collection of all HTML elements: */
-        z = document.getElementsByTagName("*");
-        for (i = 0; i < z.length; i++) {
-          elmnt = z[i];
-          /*search for elements with a certain atrribute:*/
-          file = elmnt.getAttribute("wui-include-html");
-          if (file) {
-            /* Make an HTTP request using the attribute value as the file name: */
-            xhttp = new XMLHttpRequest();
-            xhttp.onreadystatechange = function () {
-              if (this.readyState == 4) {
-                if (this.status == 200) {
-                  elmnt.innerHTML = this.responseText;
-                }
-                if (this.status == 404) {
-                  elmnt.innerHTML = "Page not found.";
-                }
-                /* Remove the attribute, and call this function once more: */
-                elmnt.removeAttribute("wui-include-html");
-                includeHTML();
-              }
-            };
-            xhttp.open("GET", file, true);
-            xhttp.send();
-            /* Exit the function: */
-            return;
-          }
-        }
-      }
-    </script>
   </head>
 
   <body>
@@ -79,55 +45,85 @@
             <h3>Getting Started</h3>
           </li>
           <li class="sidebar-item">
-            <a href="#introduction" class="sidebar-item-link"> Introduction </a>
+            <a href="/docs/" class="sidebar-item-link active"> Introduction </a>
           </li>
           <li class="sidebar-item">
-            <a href="#typography" class="sidebar-item-link"> Typography </a>
+            <a href="/docs/components/typography/" class="sidebar-item-link">
+              Typography
+            </a>
           </li>
           <li class="margin-top-3">
             <h3>Components</h3>
           </li>
           <li class="sidebar-item">
-            <a href="#alert" class="sidebar-item-link"> Alert </a>
+            <a href="/docs/components/alert/" class="sidebar-item-link">
+              Alert
+            </a>
           </li>
           <li class="sidebar-item">
-            <a href="#avatar" class="sidebar-item-link"> Avatar </a>
+            <a href="/docs/components/avatar/" class="sidebar-item-link">
+              Avatar
+            </a>
           </li>
           <li class="sidebar-item">
-            <a href="#badge" class="sidebar-item-link"> Badge </a>
+            <a href="/docs/components/badge/" class="sidebar-item-link">
+              Badge
+            </a>
           </li>
           <li class="sidebar-item">
-            <a href="#button" class="sidebar-item-link"> Button </a>
+            <a href="/docs/components/button/" class="sidebar-item-link">
+              Button
+            </a>
           </li>
           <li class="sidebar-item">
-            <a href="#card" class="sidebar-item-link"> Card </a>
+            <a href="/docs/components/card/" class="sidebar-item-link">
+              Card
+            </a>
           </li>
           <li class="sidebar-item">
-            <a href="#image" class="sidebar-item-link"> Image </a>
+            <a href="/docs/components/image/" class="sidebar-item-link">
+              Image
+            </a>
           </li>
           <li class="sidebar-item">
-            <a href="#input" class="sidebar-item-link"> Input </a>
+            <a href="/docs/components/input/" class="sidebar-item-link">
+              Input
+            </a>
           </li>
           <li class="sidebar-item">
-            <a href="#lists" class="sidebar-item-link"> Lists </a>
+            <a href="/docs/components/lists/" class="sidebar-item-link">
+              Lists
+            </a>
           </li>
           <li class="sidebar-item">
-            <a href="#navbar" class="sidebar-item-link"> Navbar </a>
+            <a href="/docs/components/navbar/" class="sidebar-item-link">
+              Navbar
+            </a>
           </li>
           <li class="sidebar-item">
-            <a href="#modal" class="sidebar-item-link"> Modal </a>
+            <a href="/docs/components/modal/" class="sidebar-item-link">
+              Modal
+            </a>
           </li>
           <li class="sidebar-item">
-            <a href="#rating" class="sidebar-item-link"> Rating </a>
+            <a href="/docs/components/rating/" class="sidebar-item-link">
+              Rating
+            </a>
           </li>
           <li class="sidebar-item">
-            <a href="#toast" class="sidebar-item-link"> Toast </a>
+            <a href="/docs/components/toast/" class="sidebar-item-link">
+              Toast
+            </a>
           </li>
           <li class="sidebar-item">
-            <a href="#grid" class="sidebar-item-link"> Grid </a>
+            <a href="/docs/components/grid/" class="sidebar-item-link">
+              Grid
+            </a>
           </li>
           <li class="sidebar-item">
-            <a href="#slider" class="sidebar-item-link"> Slider </a>
+            <a href="/docs/components/slider/" class="sidebar-item-link">
+              Slider
+            </a>
           </li>
         </ul>
       </aside>
@@ -135,88 +131,41 @@
       <div class="component-section padding-horizontal-3">
         <div class="component-section-background"></div>
         <div class="components-content">
-          <section
-            wui-include-html="components/"
-            id="introduction"
-            class="margin-vertical-5"
-          ></section>
-          <section
-            wui-include-html="components/typography"
-            id="typography"
-            class="margin-vertical-5"
-          ></section>
-          <section
-            wui-include-html="components/alert"
-            id="alert"
-            class="margin-vertical-5"
-          ></section>
-          <section
-            wui-include-html="components/avatar"
-            id="avatar"
-            class="margin-vertical-5"
-          ></section>
-          <section
-            wui-include-html="components/badge"
-            id="badge"
-            class="margin-vertical-5"
-          ></section>
-          <section
-            wui-include-html="components/button"
-            id="button"
-            class="margin-vertical-5"
-          ></section>
-          <section
-            wui-include-html="components/card"
-            id="card"
-            class="margin-vertical-5"
-          ></section>
-          <section
-            wui-include-html="components/image"
-            id="image"
-            class="margin-vertical-5"
-          ></section>
-          <section
-            wui-include-html="components/input"
-            id="input"
-            class="margin-vertical-5"
-          ></section>
-          <section
-            wui-include-html="components/lists"
-            id="lists"
-            class="margin-vertical-5"
-          ></section>
-          <section
-            wui-include-html="components/navbar"
-            id="navbar"
-            class="margin-vertical-5"
-          ></section>
-          <section
-            wui-include-html="components/modal"
-            id="modal"
-            class="margin-vertical-5"
-          ></section>
-          <section
-            wui-include-html="components/rating"
-            id="rating"
-            class="margin-vertical-5"
-          ></section>
-          <section
-            wui-include-html="components/toast"
-            id="toast"
-            class="margin-vertical-5"
-          ></section>
-          <section
-            wui-include-html="components/grid"
-            id="grid"
-            class="margin-vertical-5"
-          ></section>
+          <section id="introduction" class="margin-vertical-5">
+            <div class="introduction">
+              <h1 class="h1">Introduction</h1>
+              <p class="text-lead">
+                Wrixby Component Library is an Open Source CSS library with a
+                view on providing unique ready-to-use components. To know more
+                about it, you can look at its
+                <a
+                  href="https://github.com/keshavkumar-in/wrixby-component-library"
+                  class="text-link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  >Github</a
+                >
+                repo.
+              </p>
+              <h2 class="margin-top-4">Quick Start</h2>
+              <p class="margin-vertical-2">
+                Copy & Paste the stylesheet <code>&lt;link&gt;</code> into your
+                <code
+                  >&lt;head&gt; before all other stylesheets to load Wrixby
+                  CSS.</code
+                >
+              </p>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=a11y-dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=34px&ph=52px&ln=true&fl=1&fm=Hack&fs=15px&lh=143%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fcdn.jsdelivr.net%252Fgh%252Fkeshavkumar-in%252Fwrixby-component-library%2540development%252Flib%252Fpackage%252Fcomponents%252Fwrixby.min.css%2522%253E"
+                class="code-snippets code-snippets-xs"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </section>
         </div>
       </div>
     </main>
-
-    <script>
-      includeHTML();
-    </script>
     <script src="/lib/package/wrixby.js"></script>
   </body>
 </html>

@@ -1,29 +1,179 @@
-<div class="modal-component">
-  <div>
-    <h1>Modal</h1>
-    <p class="text-lead margin-vertical-2">
-      Modals can be used to showcase certain actions or some sort of on page
-      details. It appears like a pop up over the page.
-    </p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal Component - Wrixby UI</title>
+    <script
+      src="https://kit.fontawesome.com/303bcab846.js"
+      crossorigin="anonymous"
+    ></script>
+    <link type="text/css" rel="stylesheet" href="/main.css" />
+  </head>
 
-    <div class="modal-container">
-      <button class="button button-primary" id="openModal">Open Modal</button>
-      <div id="wiModal" class="modal">
-        <div class="modal-content border-radius-md">
-          <div class="modal-header">
-            <h3 class="modal-title">Modal Title</h3>
-            <div class="close">
-              <i class="fa-regular fa-circle-xmark fa-xl"></i>
+  <body>
+    <header class="navbar">
+      <nav class="nav">
+        <div class="navbar-brand">
+          <a href="/" class="navbar-logo">
+            <img src="/assets/images/WrixbyUI.png" alt="" />
+            <h1>Wrixby UI</h1>
+          </a>
+        </div>
+
+        <ul class="navbar-menu">
+          <li class="nav-link"><a href="/docs/">Documentation</a></li>
+          <li class="nav-link">
+            <a
+              href="https://github.com/keshavkumar-in/wrixby-component-library"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button class="button button-primary button-round" role="button">
+                GitHub
+              </button>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <aside class="sidebar">
+        <ul class="sidebar-content">
+          <li>
+            <h3>Getting Started</h3>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/" class="sidebar-item-link"> Introduction </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/typography/" class="sidebar-item-link">
+              Typography
+            </a>
+          </li>
+          <li class="margin-top-3">
+            <h3>Components</h3>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/alert/" class="sidebar-item-link">
+              Alert
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/avatar/" class="sidebar-item-link">
+              Avatar
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/badge/" class="sidebar-item-link">
+              Badge
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/button/" class="sidebar-item-link">
+              Button
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/card/" class="sidebar-item-link">
+              Card
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/image/" class="sidebar-item-link">
+              Image
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/input/" class="sidebar-item-link">
+              Input
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/lists/" class="sidebar-item-link">
+              Lists
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/navbar/" class="sidebar-item-link">
+              Navbar
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/modal/" class="sidebar-item-link active">
+              Modal
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/rating/" class="sidebar-item-link">
+              Rating
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/toast/" class="sidebar-item-link">
+              Toast
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/grid/" class="sidebar-item-link">
+              Grid
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/slider/" class="sidebar-item-link">
+              Slider
+            </a>
+          </li>
+        </ul>
+      </aside>
+
+      <div class="component-section padding-horizontal-3">
+        <div class="component-section-background"></div>
+        <div class="components-content">
+          <section id="modal" class="margin-vertical-5">
+            <div class="modal-component">
+              <div>
+                <h1>Modal</h1>
+                <p class="text-lead margin-vertical-2">
+                  Modals can be used to showcase certain actions or some sort of
+                  on page details. It appears like a pop up over the page.
+                </p>
+
+                <div class="modal-container">
+                  <button class="button button-primary" id="openModal">
+                    Open Modal
+                  </button>
+                </div>
+              </div>
             </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <div id="wiModal" class="modal">
+      <div class="modal-content border-radius-md">
+        <div class="modal-header">
+          <h3 class="modal-title">Modal Title</h3>
+          <div class="close">
+            <i class="fa-regular fa-circle-xmark fa-xl"></i>
           </div>
-          <div class="modal-body">
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga facilis, quis atque unde officia repellat quo recusandae corporis vero libero eaque ipsum pariatur est vel saepe ducimus aspernatur sequi reiciendis?</p>
-          </div>
-          <div class="modal-footer">
-              <button class="button button-success-outline button-round">Save</button>
-          </div>
+        </div>
+        <div class="modal-body">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
+            facilis, quis atque unde officia repellat quo recusandae corporis
+            vero libero eaque ipsum pariatur est vel saepe ducimus aspernatur
+            sequi reiciendis?
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button class="button button-success-outline button-round">
+            Save
+          </button>
         </div>
       </div>
     </div>
-  </div>
-</div>
+    <script src="/lib/package/wrixby.js"></script>
+  </body>
+</html>

@@ -1,30 +1,175 @@
-<div class="navbar-component">
-  <div>
-    <h1>Navbar</h1>
-    <p class="text-lead margin-vertical-2">
-      Simple desktop navigation example.
-    </p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar Component - Wrixby UI</title>
+    <script
+      src="https://kit.fontawesome.com/303bcab846.js"
+      crossorigin="anonymous"
+    ></script>
+    <link type="text/css" rel="stylesheet" href="/main.css" />
+  </head>
 
-    <div class="navbar-container">
-      <header class="navbar">
-        <nav class="nav">
-          <div class="navbar-brand">
-            <a href="/" class="navbar-logo">
-              <h3 class="text-red">Wrixby UI</h3>
+  <body>
+    <header class="navbar">
+      <nav class="nav">
+        <div class="navbar-brand">
+          <a href="/" class="navbar-logo">
+            <img src="/assets/images/WrixbyUI.png" alt="" />
+            <h1>Wrixby UI</h1>
+          </a>
+        </div>
+
+        <ul class="navbar-menu">
+          <li class="nav-link"><a href="/docs/">Documentation</a></li>
+          <li class="nav-link">
+            <a
+              href="https://github.com/keshavkumar-in/wrixby-component-library"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button class="button button-primary button-round" role="button">
+                GitHub
+              </button>
             </a>
-          </div>
-          <ul class="navbar-menu">
-            <li class="nav-link"><a href="javascript:;">Installation</a></li>
-            <li class="nav-link"><a href="javascript:;">Documentation</a></li>
-          </ul>
-        </nav>
-      </header>
-    </div>
-    <iframe
-      src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=a11y-dark&wt=none&l=htmlmixed&width=906&ds=true&dsyoff=44px&dsblur=79px&wc=true&wa=false&pv=55px&ph=100px&ln=true&fl=1&fm=Hack&fs=16px&lh=136%25&si=false&es=2x&wm=false&code=%253Cheader%2520class%253D%2522navbar%2522%253E%250A%2520%2520%253Cnav%2520class%253D%2522nav%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navbar-brand%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%252F%2522%2520class%253D%2522navbar-logo%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EWrixby%2520UI%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cul%2520class%253D%2522navbar-menu%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-link%2522%253E%253Ca%2520href%253D%2522javascript%253A%253B%2522%253EInstallation%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-link%2522%253E%253Ca%2520href%253D%2522javascript%253A%253B%2522%253EDocumentation%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%253C%252Fnav%253E%250A%253C%252Fheader%253E"
-      class="code-snippets code-snippets-md"
-      sandbox="allow-scripts allow-same-origin"
-    >
-    </iframe>
-  </div>
-</div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <aside class="sidebar">
+        <ul class="sidebar-content">
+          <li>
+            <h3>Getting Started</h3>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/" class="sidebar-item-link"> Introduction </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/typography/" class="sidebar-item-link">
+              Typography
+            </a>
+          </li>
+          <li class="margin-top-3">
+            <h3>Components</h3>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/alert/" class="sidebar-item-link">
+              Alert
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/avatar/" class="sidebar-item-link">
+              Avatar
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/badge/" class="sidebar-item-link">
+              Badge
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/button/" class="sidebar-item-link">
+              Button
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/card/" class="sidebar-item-link">
+              Card
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/image/" class="sidebar-item-link">
+              Image
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/input/" class="sidebar-item-link">
+              Input
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/lists/" class="sidebar-item-link">
+              Lists
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/navbar/" class="sidebar-item-link active">
+              Navbar
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/modal/" class="sidebar-item-link">
+              Modal
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/rating/" class="sidebar-item-link">
+              Rating
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/toast/" class="sidebar-item-link">
+              Toast
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/grid/" class="sidebar-item-link">
+              Grid
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/slider/" class="sidebar-item-link">
+              Slider
+            </a>
+          </li>
+        </ul>
+      </aside>
+
+      <div class="component-section padding-horizontal-3">
+        <div class="component-section-background"></div>
+        <div class="components-content">
+          <section id="navbar" class="margin-vertical-5">
+            <div class="navbar-component">
+              <div>
+                <h1>Navbar</h1>
+                <p class="text-lead margin-vertical-2">
+                  Simple desktop navigation example.
+                </p>
+
+                <div class="navbar-container">
+                  <header class="navbar">
+                    <nav class="nav">
+                      <div class="navbar-brand">
+                        <a href="/" class="navbar-logo">
+                          <h3 class="text-red">Wrixby UI</h3>
+                        </a>
+                      </div>
+                      <ul class="navbar-menu">
+                        <li class="nav-link">
+                          <a href="javascript:;">Installation</a>
+                        </li>
+                        <li class="nav-link">
+                          <a href="javascript:;">Documentation</a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </header>
+                </div>
+                <iframe
+                  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=a11y-dark&wt=none&l=htmlmixed&width=906&ds=true&dsyoff=44px&dsblur=79px&wc=true&wa=false&pv=55px&ph=100px&ln=true&fl=1&fm=Hack&fs=16px&lh=136%25&si=false&es=2x&wm=false&code=%253Cheader%2520class%253D%2522navbar%2522%253E%250A%2520%2520%253Cnav%2520class%253D%2522nav%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navbar-brand%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%252F%2522%2520class%253D%2522navbar-logo%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EWrixby%2520UI%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cul%2520class%253D%2522navbar-menu%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-link%2522%253E%253Ca%2520href%253D%2522javascript%253A%253B%2522%253EInstallation%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-link%2522%253E%253Ca%2520href%253D%2522javascript%253A%253B%2522%253EDocumentation%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%253C%252Fnav%253E%250A%253C%252Fheader%253E"
+                  class="code-snippets code-snippets-md"
+                  sandbox="allow-scripts allow-same-origin"
+                >
+                </iframe>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <script src="/lib/package/wrixby.js"></script>
+  </body>
+</html>

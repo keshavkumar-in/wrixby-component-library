@@ -84,8 +84,18 @@ img {
   margin-left: 1rem;
 }
 
+.sidebar-item .active {
+  color: var(--orange-6);
+}
+
+.sidebar-item .active::before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 400;
+  content: "\f192";
+}
+
 .sidebar-item-link:hover {
-  color: var(--text-primary);
+  color: var(--orange-6);
   transition: all 0.3s ease;
 }
 
