@@ -14,7 +14,7 @@
 }
 
 .button-primary {
-  color: #fff;
+  color: var(--bg-secondary);
   background-color: var(--bg-primary);
 }
 
@@ -25,22 +25,22 @@
 }
 
 .button-success {
-  color: #fff;
+  color: var(--bg-secondary);
   background-color: var(--bg-success);
 }
 
 .button-info {
-  color: #fff;
+  color: var(--bg-secondary);
   background-color: var(--bg-info);
 }
 
 .button-warning {
-  color: #fff;
+  color: var(--bg-secondary);
   background-color: var(--bg-warning);
 }
 
 .button-danger {
-  color: #fff;
+  color: var(--bg-secondary);
   background-color: var(--bg-danger);
 }
 
@@ -51,7 +51,7 @@
 }
 
 .button-primary-outline:hover {
-  color: #fff;
+  color: var(--bg-secondary);
   background-color: var(--bg-primary);
 }
 
@@ -62,7 +62,7 @@
 }
 
 .button-success-outline:hover {
-  color: #fff;
+  color: var(--bg-secondary);
   background-color: var(--bg-success);
 }
 
@@ -73,7 +73,7 @@
 }
 
 .button-info-outline:hover {
-  color: #fff;
+  color: var(--bg-secondary);
   background-color: var(--bg-info);
 }
 
@@ -84,7 +84,7 @@
 }
 
 .button-warning-outline:hover {
-  color: #fff;
+  color: var(--bg-secondary);
   background-color: var(--bg-warning);
 }
 
@@ -95,7 +95,7 @@
 }
 
 .button-danger-outline:hover {
-  color: #fff;
+  color: var(--bg-secondary);
   background-color: var(--bg-danger);
 }
 

@@ -125,3 +125,28 @@ img {
   flex-wrap: wrap;
   gap: 1rem;
 }
+
+/* Code Snippets */
+.code-snippets {
+  width: 100%;
+  max-width: 100%;
+  border: 0;
+  transform: scale(1);
+  overflow: hidden;
+}
+
+.code-snippets-xs {
+  height: 12rem;
+}
+
+.code-snippets-sm {
+  height: 20rem;
+}
+
+.code-snippets-md {
+  height: 32rem;
+}
+
+.code-snippets-lg {
+  height: 40rem;
+}
