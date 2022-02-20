@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.image-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-circle {
+  border-radius: 50%;
+}
+
+.image-small {
+  width: 5rem;
+  height: 5rem;
+}
+
+.image-medium {
+  width: 10rem;
+  height: 10rem;
+}
+
+.image-large {
+  width: 20rem;
+  height: 20rem;
+}

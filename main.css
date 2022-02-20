@@ -43,9 +43,11 @@ img {
   justify-content: space-between;
   width: 100px;
 }
+
 .social-links a {
   color: var(--gray);
 }
+
 .social-links a:hover {
   color: var(--text-primary);
 }
@@ -58,6 +60,7 @@ img {
   position: sticky;
   top: 50px;
   flex: 0 0 auto;
+  width: 10%;
   overflow-y: auto;
   overflow-x: hidden;
   height: 100vh;
@@ -91,7 +94,9 @@ img {
 .component-section {
   flex: 0 0 auto;
   width: 80%;
+  max-width: 80%;
   position: relative;
+  overflow: hidden;
 }
 
 .component-section-background {
@@ -119,6 +124,7 @@ img {
   flex-wrap: wrap;
   flex-direction: column;
 }
+
 .avatar-component .avatar-examples {
   display: flex;
   flex-direction: row;
@@ -163,5 +169,28 @@ img {
 
 .cards-group-2 .card {
   flex-grow: 1;
-  /* flex-basis: 100rem; */
+}
+
+/* Image Component */
+.image-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--gray-1);
+}
+
+/* Input Component */
+.input-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--gray-1);
+}
+
+.input-container form {
+  width: 25rem;
 }
