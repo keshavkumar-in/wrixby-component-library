@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+.card {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: var(--white);
+  box-shadow: var(--box-shadow);
+  position: relative;
+  overflow: hidden;
+}
+
+.card-vertical {
+  flex-direction: column;
+  width: 60rem;
+}
+
+.card-horizontal {
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-header .badge {
+  right: 10%;
+}
+
+.card-image .card-header img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.card-content p {
+  line-height: 1.5rem;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-footer .card-price {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-price .offer-price {
+  color: var(--green-8);
+  font-weight: 600;
+  font-size: 1.15rem;
+}
+
+.card-price .old-price {
+  color: var(--gray-5);
+  font-weight: 300;
+  font-size: 1rem;
+  text-decoration: line-through;
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--gray-0);
+  opacity: 0.75;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-overlay .overlay-text {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--red-4);
+}
+
+.card-dismiss-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1rem;
+  color: var(--red-5);
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.card-dismiss-button:hover {
+  background-color: var(--red-1);
+}
+
+.card-shadow {
+  box-shadow: 0 20px 27px 0 rgba(0, 0, 0, 0.05);
+}
