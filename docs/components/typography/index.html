@@ -1,77 +1,220 @@
-<div class="typography-component">
-  <h1>Typography</h1>
-  <p class="text-lead margin-vertical-2">
-    Style your texts with different sets of typography.
-  </p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typography Component - Wrixby UI</title>
+    <script
+      src="https://kit.fontawesome.com/303bcab846.js"
+      crossorigin="anonymous"
+    ></script>
+    <link type="text/css" rel="stylesheet" href="/main.css" />
+  </head>
 
-  <h2 class="margin-vertical-3">Display Sizes</h2>
-  <div class="typography-container margin-vertical-3">
-    <div>
-      <p class="font-size-xs">Extra Small Text</p>
-      <p class="font-size-sm">Small Text</p>
-      <p class="font-size-md">Medium Text</p>
-      <p class="font-size-lg">Large Text</p>
-      <p class="font-size-xl">Extra Large Text</p>
-      <p class="font-size-xxl">Extra Extra Large Text</p>
-    </div>
-  </div>
-  <iframe
-    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=a11y-dark&wt=none&l=htmlmixed&width=919.25&ds=true&dsyoff=20px&dsblur=79px&wc=true&wa=false&pv=66px&ph=81px&ln=true&fl=1&fm=Hack&fs=16px&lh=136%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522font-size-xs%2522%253EExtra%2520Small%2520Text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522font-size-sm%2522%253ESmall%2520Text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522font-size-md%2522%253EMedium%2520Text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522font-size-lg%2522%253ELarge%2520Text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522font-size-xl%2522%253EExtra%2520Large%2520Text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522font-size-xxl%2522%253EExtra%2520Extra%2520Large%2520Text%253C%252Fp%253E"
-    class="code-snippets code-snippets-sm"
-    sandbox="allow-scripts allow-same-origin"
-  >
-  </iframe>
+  <body>
+    <header class="navbar">
+      <nav class="nav">
+        <div class="navbar-brand">
+          <a href="/" class="navbar-logo">
+            <img src="/assets/images/WrixbyUI.png" alt="" />
+            <h1>Wrixby UI</h1>
+          </a>
+        </div>
 
-  <h2 class="margin-vertical-3">Headings</h2>
-  <div class="typography-container margin-vertical-3">
-    <div>
-      <h6>H6 Heading</h6>
-      <h5>H5 Heading</h5>
-      <h4>H4 Heading</h4>
-      <h3>H3 Heading</h3>
-      <h2>H2 Heading</h2>
-      <h1>H1 Heading</h1>
-    </div>
-    <div>
-      <p class="h6">H6 Heading</p>
-      <p class="h5">H5 Heading</p>
-      <p class="h4">H4 Heading</p>
-      <p class="h3">H3 Heading</p>
-      <p class="h2">H2 Heading</p>
-      <p class="h1">H1 Heading</p>
-    </div>
-  </div>
-  <iframe
-    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=a11y-dark&wt=none&l=htmlmixed&width=784.75&ds=true&dsyoff=44px&dsblur=79px&wc=true&wa=false&pv=66px&ph=81px&ln=true&fl=1&fm=Hack&fs=16px&lh=136%25&si=false&es=2x&wm=false&code=%253C%21--%2520Default%2520Heading%2520Tags%2520--%253E%250A%253Ch6%253EH6%2520Heading%253C%252Fh6%253E%250A%253Ch5%253EH5%2520Heading%253C%252Fh5%253E%250A%253Ch4%253EH4%2520Heading%253C%252Fh4%253E%250A%253Ch3%253EH3%2520Heading%253C%252Fh3%253E%250A%253Ch2%253EH2%2520Heading%253C%252Fh2%253E%250A%253Ch1%253EH1%2520Heading%253C%252Fh1%253E%250A%250A%253C%21--%2520Using%2520Heading%2520Classes%2520--%253E%250A%253Cp%2520class%253D%2522h6%2522%253EH6%2520Heading%253C%252Fp%253E%250A%253Cp%2520class%253D%2522h5%2522%253EH5%2520Heading%253C%252Fp%253E%250A%253Cp%2520class%253D%2522h4%2522%253EH4%2520Heading%253C%252Fp%253E%250A%253Cp%2520class%253D%2522h3%2522%253EH3%2520Heading%253C%252Fp%253E%250A%253Cp%2520class%253D%2522h2%2522%253EH2%2520Heading%253C%252Fp%253E%250A%253Cp%2520class%253D%2522h1%2522%253EH1%2520Heading%253C%252Fp%253E"
-    class="code-snippets code-snippets-md"
-    sandbox="allow-scripts allow-same-origin"
-  >
-  </iframe>
+        <ul class="navbar-menu">
+          <li class="nav-link"><a href="/docs/">Documentation</a></li>
+          <li class="nav-link">
+            <a
+              href="https://github.com/keshavkumar-in/wrixby-component-library"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button class="button button-primary button-round" role="button">
+                GitHub
+              </button>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <aside class="sidebar">
+        <ul class="sidebar-content">
+          <li>
+            <h3>Getting Started</h3>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/" class="sidebar-item-link"> Introduction </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/typography/" class="sidebar-item-link active">
+              Typography
+            </a>
+          </li>
+          <li class="margin-top-3">
+            <h3>Components</h3>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/alert/" class="sidebar-item-link">
+              Alert
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/avatar/" class="sidebar-item-link">
+              Avatar
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/badge/" class="sidebar-item-link">
+              Badge
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/button/" class="sidebar-item-link">
+              Button
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/card/" class="sidebar-item-link">
+              Card
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/image/" class="sidebar-item-link">
+              Image
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/input/" class="sidebar-item-link">
+              Input
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/lists/" class="sidebar-item-link">
+              Lists
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/navbar/" class="sidebar-item-link">
+              Navbar
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/modal/" class="sidebar-item-link">
+              Modal
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/rating/" class="sidebar-item-link">
+              Rating
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/toast/" class="sidebar-item-link">
+              Toast
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/grid/" class="sidebar-item-link">
+              Grid
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="/docs/components/slider/" class="sidebar-item-link">
+              Slider
+            </a>
+          </li>
+        </ul>
+      </aside>
 
-  <h2 class="margin-vertical-3">Alignment</h2>
-  <div class="typography-container margin-vertical-3">
-    <div class="width-100">
-      <p class="text-align-left">Left Aligned Text</p>
-      <p class="text-align-center">Centered Text</p>
-      <p class="text-align-right">Right Aligned Text</p>
-    </div>
-  </div>
+      <div class="component-section padding-horizontal-3">
+        <div class="component-section-background"></div>
+        <div class="components-content">
+          <section id="typography" class="margin-vertical-5">
+            <div class="typography-component">
+              <h1>Typography</h1>
+              <p class="text-lead margin-vertical-2">
+                Style your texts with different sets of typography.
+              </p>
 
-  <h2 class="margin-vertical-3">Text Styles</h2>
-  <div class="typography-container margin-vertical-3">
-    <div class="width-100">
-      <p class="text-uppercase">This is a uppercase Sentence.</p>
-      <p class="text-lowercase">This is a lowecase sentence.</p>
-      <p class="text-capitalize">this is a capitalized sentence.</p>
-      <p class="text-gray-600">Gray color sentence.</p>
-      <p class="text-line-through">This is a line through sentence.</p>
-      <p class="text-underline">This is a underline sentence.</p>
-    </div>
-  </div>
-  <iframe
-    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=a11y-dark&wt=none&l=htmlmixed&width=802.5&ds=true&dsyoff=44px&dsblur=79px&wc=true&wa=false&pv=66px&ph=81px&ln=true&fl=1&fm=Hack&fs=16px&lh=136%25&si=false&es=2x&wm=false&code=%253C%21--%2520Text%2520Alignment%2520--%253E%250A%253Cp%2520class%253D%2522text-align-left%2522%253ELeft%2520Aligned%2520Text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-align-center%2522%253ECentered%2520Text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-align-right%2522%253ERight%2520Aligned%2520Text%253C%252Fp%253E%250A%250A%253C%21--%2520Text%2520Styles%2520--%253E%250A%253Cp%2520class%253D%2522text-uppercase%2522%253EThis%2520is%2520a%2520uppercase%2520Sentence.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-lowercase%2522%253EThis%2520is%2520a%2520lowecase%2520sentence.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-capitalize%2522%253Ethis%2520is%2520a%2520capitalized%2520sentence.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-gray-600%2522%253EGray%2520color%2520sentence.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-line-through%2522%253EThis%2520is%2520a%2520line%2520through%2520sentence.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-underline%2522%253EThis%2520is%2520a%2520underline%2520sentence.%253C%252Fp%253E"
-    class="code-snippets code-snippets-md"
-    sandbox="allow-scripts allow-same-origin"
-  >
-  </iframe>
-</div>
+              <h2 class="margin-vertical-3">Display Sizes</h2>
+              <div class="typography-container margin-vertical-3">
+                <div>
+                  <p class="font-size-xs">Extra Small Text</p>
+                  <p class="font-size-sm">Small Text</p>
+                  <p class="font-size-md">Medium Text</p>
+                  <p class="font-size-lg">Large Text</p>
+                  <p class="font-size-xl">Extra Large Text</p>
+                  <p class="font-size-xxl">Extra Extra Large Text</p>
+                </div>
+              </div>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=a11y-dark&wt=none&l=htmlmixed&width=919.25&ds=true&dsyoff=20px&dsblur=79px&wc=true&wa=false&pv=66px&ph=81px&ln=true&fl=1&fm=Hack&fs=16px&lh=136%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522font-size-xs%2522%253EExtra%2520Small%2520Text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522font-size-sm%2522%253ESmall%2520Text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522font-size-md%2522%253EMedium%2520Text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522font-size-lg%2522%253ELarge%2520Text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522font-size-xl%2522%253EExtra%2520Large%2520Text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522font-size-xxl%2522%253EExtra%2520Extra%2520Large%2520Text%253C%252Fp%253E"
+                class="code-snippets code-snippets-sm"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+
+              <h2 class="margin-vertical-3">Headings</h2>
+              <div class="typography-container margin-vertical-3">
+                <div>
+                  <h6>H6 Heading</h6>
+                  <h5>H5 Heading</h5>
+                  <h4>H4 Heading</h4>
+                  <h3>H3 Heading</h3>
+                  <h2>H2 Heading</h2>
+                  <h1>H1 Heading</h1>
+                </div>
+                <div>
+                  <p class="h6">H6 Heading</p>
+                  <p class="h5">H5 Heading</p>
+                  <p class="h4">H4 Heading</p>
+                  <p class="h3">H3 Heading</p>
+                  <p class="h2">H2 Heading</p>
+                  <p class="h1">H1 Heading</p>
+                </div>
+              </div>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=a11y-dark&wt=none&l=htmlmixed&width=784.75&ds=true&dsyoff=44px&dsblur=79px&wc=true&wa=false&pv=66px&ph=81px&ln=true&fl=1&fm=Hack&fs=16px&lh=136%25&si=false&es=2x&wm=false&code=%253C%21--%2520Default%2520Heading%2520Tags%2520--%253E%250A%253Ch6%253EH6%2520Heading%253C%252Fh6%253E%250A%253Ch5%253EH5%2520Heading%253C%252Fh5%253E%250A%253Ch4%253EH4%2520Heading%253C%252Fh4%253E%250A%253Ch3%253EH3%2520Heading%253C%252Fh3%253E%250A%253Ch2%253EH2%2520Heading%253C%252Fh2%253E%250A%253Ch1%253EH1%2520Heading%253C%252Fh1%253E%250A%250A%253C%21--%2520Using%2520Heading%2520Classes%2520--%253E%250A%253Cp%2520class%253D%2522h6%2522%253EH6%2520Heading%253C%252Fp%253E%250A%253Cp%2520class%253D%2522h5%2522%253EH5%2520Heading%253C%252Fp%253E%250A%253Cp%2520class%253D%2522h4%2522%253EH4%2520Heading%253C%252Fp%253E%250A%253Cp%2520class%253D%2522h3%2522%253EH3%2520Heading%253C%252Fp%253E%250A%253Cp%2520class%253D%2522h2%2522%253EH2%2520Heading%253C%252Fp%253E%250A%253Cp%2520class%253D%2522h1%2522%253EH1%2520Heading%253C%252Fp%253E"
+                class="code-snippets code-snippets-md"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+
+              <h2 class="margin-vertical-3">Alignment</h2>
+              <div class="typography-container margin-vertical-3">
+                <div class="width-100">
+                  <p class="text-align-left">Left Aligned Text</p>
+                  <p class="text-align-center">Centered Text</p>
+                  <p class="text-align-right">Right Aligned Text</p>
+                </div>
+              </div>
+
+              <h2 class="margin-vertical-3">Text Styles</h2>
+              <div class="typography-container margin-vertical-3">
+                <div class="width-100">
+                  <p class="text-uppercase">This is a uppercase Sentence.</p>
+                  <p class="text-lowercase">This is a lowecase sentence.</p>
+                  <p class="text-capitalize">this is a capitalized sentence.</p>
+                  <p class="text-gray-600">Gray color sentence.</p>
+                  <p class="text-line-through">
+                    This is a line through sentence.
+                  </p>
+                  <p class="text-underline">This is a underline sentence.</p>
+                </div>
+              </div>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=a11y-dark&wt=none&l=htmlmixed&width=802.5&ds=true&dsyoff=44px&dsblur=79px&wc=true&wa=false&pv=66px&ph=81px&ln=true&fl=1&fm=Hack&fs=16px&lh=136%25&si=false&es=2x&wm=false&code=%253C%21--%2520Text%2520Alignment%2520--%253E%250A%253Cp%2520class%253D%2522text-align-left%2522%253ELeft%2520Aligned%2520Text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-align-center%2522%253ECentered%2520Text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-align-right%2522%253ERight%2520Aligned%2520Text%253C%252Fp%253E%250A%250A%253C%21--%2520Text%2520Styles%2520--%253E%250A%253Cp%2520class%253D%2522text-uppercase%2522%253EThis%2520is%2520a%2520uppercase%2520Sentence.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-lowercase%2522%253EThis%2520is%2520a%2520lowecase%2520sentence.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-capitalize%2522%253Ethis%2520is%2520a%2520capitalized%2520sentence.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-gray-600%2522%253EGray%2520color%2520sentence.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-line-through%2522%253EThis%2520is%2520a%2520line%2520through%2520sentence.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-underline%2522%253EThis%2520is%2520a%2520underline%2520sentence.%253C%252Fp%253E"
+                class="code-snippets code-snippets-md"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <script src="/lib/package/wrixby.js"></script>
+  </body>
+</html>
