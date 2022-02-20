@@ -60,7 +60,6 @@ img {
   position: sticky;
   top: 50px;
   flex: 0 0 auto;
-  width: 10%;
   overflow-y: auto;
   overflow-x: hidden;
   height: 100vh;
@@ -95,6 +94,7 @@ img {
   flex: 0 0 auto;
   width: 80%;
   max-width: 80%;
+  flex-basis: 80%;
   position: relative;
   overflow: hidden;
 }
@@ -171,18 +171,11 @@ img {
   flex-grow: 1;
 }
 
-/* Image Component */
-.image-container {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
-  background-color: var(--gray-1);
-}
-
-/* Input Component */
-.input-container {
+/* Image & Input Components */
+.image-container,
+.input-container,
+.typography-container,
+.lists-container {
   display: flex;
   gap: 1rem;
   justify-content: center;
@@ -193,4 +186,19 @@ img {
 
 .input-container form {
   width: 25rem;
+}
+
+/* Typography Components */
+.typography-container {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Lists components */
+.lists-container {
+  gap: 2rem;
+  align-items: flex-start;
 }
