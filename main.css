@@ -151,3 +151,17 @@ img {
 .code-snippets-lg {
   height: 40rem;
 }
+
+/* Card Components */
+.cards-group {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  background-color: var(--gray-2);
+  padding: 2rem;
+}
+
+.cards-group-2 .card {
+  flex-grow: 1;
+  /* flex-basis: 100rem; */
+}

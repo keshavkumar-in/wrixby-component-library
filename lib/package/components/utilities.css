@@ -132,3 +132,12 @@
 .bg-danger-light {
   background-color: var(--bg-danger-light);
 }
+
+/* Border Radius */
+.border-radius-sm {
+  border-radius: 0.5rem;
+}
+
+.border-radius-md {
+  border-radius: 1rem;
+}
