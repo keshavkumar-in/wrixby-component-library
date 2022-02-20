@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+.list-style-disc {
+  list-style: disc;
+}
+
+.list-style-square {
+  list-style: square;
+}
+
+.list-style-circle {
+  list-style: circle;
+}
+
+.list-style-lower-roman {
+  list-style: lower-roman;
+}
+
+.list-style-upper-roman {
+  list-style: upper-roman;
+}
+
+.list-style-lower-alpha {
+  list-style: lower-alpha;
+}
+
+.list-style-upper-alpha {
+  list-style: upper-alpha;
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+.stacked-list {
+  width: 500px;
+  font-weight: 500;
+}
+
+.stacked-list li {
+  border: 2px solid var(--gray-9);
+  background-color: var(--gray-3);
+  padding: 0.25rem 0.75rem;
+  margin: 0.5rem 0;
+  border-radius: 0.5rem;
+}
