@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.rating-input {
+  display: none;
+}
+
+.rating-input:checked + .rating-icon {
+  color: var(--orange-4);
+}
