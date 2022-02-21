@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.grid-col-two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-col-three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}

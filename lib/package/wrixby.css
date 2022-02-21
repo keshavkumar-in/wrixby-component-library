@@ -17,6 +17,8 @@
 @import url(/lib/package/components/navs.css);
 @import url(/lib/package/components/navbar.css);
 @import url(/lib/package/components/rating.css);
+@import url(/lib/package/components/toast.css);
+@import url(/lib/package/components/grid.css);
 @import url(/lib/package/components/utilities.css);
 
 * {
@@ -24,4 +26,3 @@
   padding: 0;
   box-sizing: border-box;
 }
-

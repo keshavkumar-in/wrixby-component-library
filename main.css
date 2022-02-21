@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@import url(/lib/package/components/wrixby.css);
+@import url(/lib/package/wrixby.css);
 @import url("https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap");
 
 body {
@@ -186,7 +186,10 @@ img {
 .input-container,
 .typography-container,
 .lists-container,
-.navbar-container {
+.navbar-container,
+.rating-container,
+.toast-container,
+.grid-container {
   display: flex;
   gap: 1rem;
   justify-content: center;
@@ -212,4 +215,12 @@ img {
 .lists-container {
   gap: 2rem;
   align-items: flex-start;
+}
+
+.components-content code {
+  background-color: var(--orange-2);
+  padding: 0.25rem 0.5rem;
+  border-radius: 1rem;
+  color: var(--gray-9);
+  font-weight: 600;
 }
