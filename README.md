@@ -24,7 +24,7 @@ Copy & Paste the stylesheet `<link>` into your `<head>` before all other stylesh
 ```html
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/keshavkumar-in/wrixby-component-library@development/lib/package/components/wrixby.min.css"
+  href="https://cdn.jsdelivr.net/gh/keshavkumar-in/wrixby-component-library@development/lib/package/wrixby.min.css"
 />
 ```
 
