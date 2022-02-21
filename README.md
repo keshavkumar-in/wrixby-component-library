@@ -37,19 +37,19 @@ Many components uses JavaScript also to function, you should add Wrixby UI JavaS
 ## What's included:
 
 1. [Typography](https://wrixbyui.netlify.app/docs/components/typography/)
-1. [Alert](https://wrixbyui.netlify.app/docs/components/alert/)
-1. [Avatar](https://wrixbyui.netlify.app/docs/components/avatar/)
-1. [Badge](https://wrixbyui.netlify.app/docs/components/badge/)
-1. [Button](https://wrixbyui.netlify.app/docs/components/button/)
-1. [Card](https://wrixbyui.netlify.app/docs/components/card/)
-1. [Image](https://wrixbyui.netlify.app/docs/components/image/)
-1. [Input](https://wrixbyui.netlify.app/docs/components/input/)
-1. [Lists](https://wrixbyui.netlify.app/docs/components/lists/)
-1. [Navbar](https://wrixbyui.netlify.app/docs/components/navbar/)
-1. [Modal](https://wrixbyui.netlify.app/docs/components/modal/)
-1. [Rating](https://wrixbyui.netlify.app/docs/components/rating/)
-1. [Toast](https://wrixbyui.netlify.app/docs/components/toasts/)
-1. [Grid](https://wrixbyui.netlify.app/docs/components/grid/)
+2. [Alert](https://wrixbyui.netlify.app/docs/components/alert/)
+3. [Avatar](https://wrixbyui.netlify.app/docs/components/avatar/)
+4. [Badge](https://wrixbyui.netlify.app/docs/components/badge/)
+5. [Button](https://wrixbyui.netlify.app/docs/components/button/)
+6. [Card](https://wrixbyui.netlify.app/docs/components/card/)
+7. [Image](https://wrixbyui.netlify.app/docs/components/image/)
+8. [Input](https://wrixbyui.netlify.app/docs/components/input/)
+9. [Lists](https://wrixbyui.netlify.app/docs/components/lists/)
+10. [Navbar](https://wrixbyui.netlify.app/docs/components/navbar/)
+11. [Modal](https://wrixbyui.netlify.app/docs/components/modal/)
+12. [Rating](https://wrixbyui.netlify.app/docs/components/rating/)
+13. [Toast](https://wrixbyui.netlify.app/docs/components/toasts/)
+14. [Grid](https://wrixbyui.netlify.app/docs/components/grid/)
 
 
 ## Demo
