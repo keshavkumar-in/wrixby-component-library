@@ -52,6 +52,11 @@ Many components uses JavaScript also to function, you should add Wrixby UI JavaS
 1. [Grid](https://wrixbyui.netlify.app/docs/components/grid/)
 
 
+## Demo
+
+![App Screenshot](https://wrixbyui.netlify.app/assets/images/Wrixby UI.png)
+
+
 ## Tech Stack:
 
 ![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
