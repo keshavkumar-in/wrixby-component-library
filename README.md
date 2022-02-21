@@ -54,7 +54,7 @@ Many components uses JavaScript also to function, you should add Wrixby UI JavaS
 
 ## Demo
 
-![App Screenshot](https://wrixbyui.netlify.app/assets/images/Wrixby UI.png)
+![App Screenshot](https://github.com/keshavkumar-in/wrixby-component-library/blob/development/assets/images/Wrixby%20UI.png)
 
 
 ## Tech Stack:
