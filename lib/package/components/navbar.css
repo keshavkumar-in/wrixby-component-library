@@ -15,7 +15,7 @@
   margin: 0 auto;
   height: 100%;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 .navbar-brand {
   flex: 25%;
