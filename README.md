@@ -24,14 +24,14 @@ Copy & Paste the stylesheet `<link>` into your `<head>` before all other stylesh
 ```html
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/keshavkumar-in/wrixby-component-library@development/lib/package/wrixby.min.css"
+  href="https://wrixbyui.netlify.com/lib/package/wrixby.css"
 />
 ```
 
 Many components uses JavaScript also to function, you should add Wrixby UI JavaScript file to work smoothly.
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/keshavkumar-in/wrixby-component-library@development/lib/package/wrixby.min.js"></script>
+<script src="https://wrixbyui.netlify.com/lib/package/wrixby.js"></script>
 ```
 
 ## What's included:
